@@ -1,8 +1,8 @@
 ###########################################################################
 # NLP demo software by HyperbeeAI.                                        #
-# Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. main@shallow.ai #
+# Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai #
 ###########################################################################
-license_statement = "NLP demo software by HyperbeeAI. Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. main@shallow.ai"
+license_statement = "NLP demo software by HyperbeeAI. Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai"
 print("imported functions.py")
 print(license_statement)
 print("")

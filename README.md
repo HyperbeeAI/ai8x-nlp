@@ -1,5 +1,5 @@
 # NLP demo software by HyperbeeAI
-Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. main@shallow.ai
+Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai
 
 This repository contains evaluation tools for the ai85 Spanish-to-English translation project. 
 
