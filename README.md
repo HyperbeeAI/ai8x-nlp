@@ -1,7 +1,7 @@
 # NanoTranslator by HyperbeeAI
 Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai
 
-This repository contains the Spanish-to-English translation utility by HyperbeeAI called NanoTranslator. **The model takes up less than 400 KBs of RAM and accurately translates news articles.**
+This repository contains the Spanish-to-English translation utility by HyperbeeAI called NanoTranslator. **The model takes up less than 400 KBs of RAM and provides accurate translation for casual conversations.**
 
 To run the demo, see explanations in "demo.ipynb", which acts as the serial terminal to communicate with the ai85 from the host PC. Further explanations are provided below as well as in the notebooks.
 
