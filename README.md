@@ -24,9 +24,7 @@ After the setup script completes, the shell needs to be restarted for the change
 
     source ~/.bashrc
 
-Then, activate the environment:
-
-    source activate venv/
+Then, activate the environment and run the notebooks.
 
 Note1: If torchtext defaults to older versions in your container (e.g., v0.8), the .legacy submodule path needs to be removed from the import directives in the .py files and Jupyter notebooks.
 
