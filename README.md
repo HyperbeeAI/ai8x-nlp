@@ -7,11 +7,26 @@ To run the demo, which communicates with a MAX78000 FeatherBoard over a USB seri
 
 If you only want to evaluate model accuracy, run "evaluation.ipynb". Note that this notebook does an exact simulation of the MAX78000 arithmetic, so the accuracy should be exactly the same as what would be achieved on a hardware run. 
 
+A video of the demo with the FeatherBoard is shown below:
+
 ![Demo](./assets/ai8x-nlp-demo.gif)
 
-## Installation:
 
-    bash setup.sh 
+## Installation (Linux):
+
+First run:
+
+    bash -i setup.sh 
+
+If you do not have conda installed, the script will install a self-contained miniconda version inside the repo to the conda/ folder. If you do have conda installed, the script will just use that installation to create the virtual environment. 
+
+After the setup script completes, the shell needs to be restarted for the changes to take effect. Therefore, run: 
+
+    source ~/.bashrc
+
+Then, activate the environment:
+
+    source activate venv/
 
 Note1: If torchtext defaults to older versions in your container (e.g., v0.8), the .legacy submodule path needs to be removed from the import directives in the .py files and Jupyter notebooks.
 

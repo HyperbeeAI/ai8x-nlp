@@ -6,10 +6,14 @@ if ! command -v conda &> /dev/null; then
 	bash miniconda_installer.sh -b -p ./conda -u
 	conda/bin/conda init bash
 	source conda/etc/profile.d/conda.sh
+	conda config --set auto_activate_base false
 	rm miniconda_installer.sh
 fi	
+CONDA_PATH=$(which conda)
+export PATH="$(dirname $CONDA_PATH)/../bin:$PATH"
+source ~/.bashrc
 conda create -y -k --prefix ./venv python=3.8.10
-conda activate ./venv/
+source activate ./venv/
 pip install -r requirements.txt
-pip install jupyterlab
-pip install ipywidgets
+pip install notebook
+pip install --force-reinstall -v "traitlets<5.10" # see https://github.com/jupyterhub/jupyterhub/issues/4418
